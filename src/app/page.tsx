@@ -51,7 +51,7 @@ function Home() {
   return (
     <main className="container mx-auto min-h-min flex flex-col items-center">
       <div className="h-32 flex items-center">
-        <h1 className={`text-3xl text-gray-100`}>
+        <h1 className={`text-3xl text-gray-100 ${robotoMono.className}`}>
           TextTo01
         </h1>
       </div>
