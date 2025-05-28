@@ -37,8 +37,14 @@ function Home() {
 
   const toggleSquares = (squares: {row: number, col: number}[]) => {
     const newGrid = grid.map(subarray => [...subarray])
+    // Get the center square's state
+    const centerRow = squares[Math.floor(squares.length / 2)].row
+    const centerCol = squares[Math.floor(squares.length / 2)].col
+    const centerState = !newGrid[centerRow][centerCol]
+    
+    // Set all affected squares to the center's new state
     squares.forEach(({row, col}) => {
-      newGrid[row][col] = !newGrid[row][col]
+      newGrid[row][col] = centerState
     })
     setGrid(newGrid)
   }
