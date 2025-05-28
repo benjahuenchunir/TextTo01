@@ -5,10 +5,17 @@ export default function Footer() {
         {'2023 - '}
         <a href="https://github.com/NachoJuanDev">@NachoJuanDev</a>
       </span>
-
-      <div className="text-xs text-slate-300">
-        {'Check the repo at GitHub: '}
-        <a href="https://github.com/NachoJuanDev/TextTo01">TextTo01</a>
+        
+      <div>
+        <div className="text-xs text-slate-300">
+          {'Check the original repo at GitHub: '}
+          <a href="https://github.com/NachoJuanDev/TextTo01">TextTo01</a>
+        </div>
+        
+        <div className="text-xs text-slate-300">
+          {'Check the updated repo at GitHub: '}
+          <a href="https://github.com/benjahuenchunir/TextTo01">TextTo01</a>
+        </div>
       </div>
     </div>
   )

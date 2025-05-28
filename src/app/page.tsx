@@ -51,12 +51,12 @@ function Home() {
   return (
     <main className="container mx-auto min-h-min flex flex-col items-center">
       <div className="h-32 flex items-center">
-        <h1 className={`text-3xl ${robotoMono.className} text-gray-900 dark:text-gray-100`}>
+        <h1 className={`text-3xl text-gray-100`}>
           TextTo01
         </h1>
       </div>
       
-      <div className="flex flex-col md:flex-row w-full max-w-4xl">
+      <div className="flex flex-col md:flex-row w-full max-w-5xl">
         {/* Left side - Controls and settings */}
         <div className="w-full md:w-48 flex flex-col space-y-4 pr-4 mb-4 md:mb-0">
           <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
