@@ -1,6 +1,8 @@
 # TextTo01
 
-Link to website [textto01.vercel.app](https://textto01.vercel.app/)
+Link to the updated website [benjahuenchunir.github.io/TextTo01/](https://benjahuenchunir.github.io/TextTo01/)
+
+Link to original website [textto01.vercel.app](https://textto01.vercel.app/)
 
 Draw text and convert it in 0s and 1s - by [@NachoJuanDev](https://github.com/NachoJuanDev)
 
