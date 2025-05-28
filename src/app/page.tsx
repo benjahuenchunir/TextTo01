@@ -12,7 +12,7 @@ const robotoMono = RobotoMono({ subsets: ['latin'] })
 
 function Home() {
   const [grid, setGrid] = useState(getNewMatrix())
-  const [paintMode, setPaintMode] = useState<'single' | 'threeByThree'>('single')
+  const [paintMode, setPaintMode] = useState<'single' | 'threeByThree'>('threeByThree')
 
   const getAffectedSquares = (row: number, col: number) => {
     if (paintMode === 'threeByThree') {
